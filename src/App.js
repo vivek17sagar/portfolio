@@ -7,9 +7,10 @@ import Design from "./Design/Design";
 
 function App() {
   return (
-    <div className="App bg-gradient-to-r from-black h-[100vh]">
+    <div className="App bg-black -z-50">
       <Header />
       <HeroBoard />
+      <About/>
     </div>
   );
 }

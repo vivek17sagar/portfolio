@@ -31,7 +31,7 @@ export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
-    <header className="bg-white fixed w-full">
+    <header className="fixed w-full">
       <nav className="mx-auto flex max-full items-center justify-center p-6 lg:px-6 bg-black" aria-label="Global">
        
         <div className="flex lg:hidden">
