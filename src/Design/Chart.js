@@ -66,7 +66,6 @@ const dataset = [
     month: 'Dec',
   },
 ];
-
 const valueFormatter = (value) => `${value}mm`;
 
 export default function HorizontalBars() {
