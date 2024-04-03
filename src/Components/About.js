@@ -162,8 +162,7 @@ const About = () => {
               backdropFilter: "blur(2px)",
               // -webkit-backdrop-filter: blur(3px);
               border: "1px solid rgba(255, 255, 255, 0.49)",
-            }}
-          >
+            }}>
             <div
               className={`transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 text-white ${
                 activeSkill == "technical" ? "bg-[#687EFF]" : null
