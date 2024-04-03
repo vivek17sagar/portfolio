@@ -127,6 +127,9 @@ const About = () => {
       },
     ],
   };
+
+
+
   return (
     <div>
       <div className="z-50">
@@ -137,6 +140,7 @@ const About = () => {
           <img
             src={bgImage2}
             style={{ position: "absolute", zIndex: "0", opacity: "0.7" }}
+            alt="backgroundImage"
           ></img>
           <p className="w-3/4 tracking-[0.2rem] text-white leading-10 text-[1.2rem] z-50">
             {" "}
