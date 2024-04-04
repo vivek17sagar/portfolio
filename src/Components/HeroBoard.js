@@ -3,12 +3,12 @@ import About from "./About";
 import Design from "../Design/Design";
 import atom from '../assets/atom.png'
 import './styles.css'
-import bgImage from "../assets/bgImage.png"
+import worker from "../assets/worker.gif"
 
 const HeroBoard = () => {
   return (
     <div className="flex h-screen items-center text-white z-50" >
-      <img src={bgImage} style={{position:"absolute",zIndex:"0",opacity:"0.7"}}></img>
+      <img src={worker} style={{position:"absolute",zIndex:"0",opacity:"0.2",width:"700px"}}></img>
         <Design />
 
       <div className="basis-1/2 pl-10 z-50">
