@@ -25,7 +25,7 @@ const Stepper = () => {
           </span>
         </li>
 
-        <li class="flex w-full items-center after:content-[''] after:w-full after:h-1 after:border-b after:border-gray-100 after:border-4 after:inline-block dark:after:border-yellow-400">
+        <li class="flex w-full items-center after:content-[''] after:w-full after:h-1 after:border-b after:border-gray-100 after:border-4 after:inline-block dark:after:border-gray-500">
           <Loader />
         </li>
       </ol>

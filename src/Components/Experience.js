@@ -3,6 +3,7 @@ import Stepper from "../Design/Stepper";
 
 const Experience = () => {
   return (
+    <>
     <div className="m-2">
       <div>
         <h1 className="text-yellow-400 text-center text-[3rem] underline tracking-widest z-50">
@@ -61,6 +62,10 @@ const Experience = () => {
         </div>
       </div>
     </div>
+    <div>
+      
+    </div>
+    </>
   );
 };
 
