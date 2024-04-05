@@ -9,7 +9,7 @@ import skill_icon from "../assets/skill_icon.png";
 import dataSet from '../Data/SkillData'
 
 const About = () => {
-  const [activeSkill, setActiveSkill] = useState("programming");
+  const [activeSkill, setActiveSkill] = useState("technical");
 
   return (
     <div>
@@ -18,10 +18,10 @@ const About = () => {
           ABOUT
         </h1>
         <div className="text-center flex justify-center z-50 ">
-          <img
+          {/* <img
             src={bgImage2}
             style={{ position: "absolute", zIndex: "0", opacity: "0.7" }}
-          ></img>
+          ></img> */}
           <p className="w-3/4 tracking-[0.2rem] text-white leading-10 text-[1.2rem] z-50">
             {" "}
             With one year of experience as a{" "}
