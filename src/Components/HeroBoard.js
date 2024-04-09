@@ -4,11 +4,13 @@ import Design from "../Design/Design";
 import atom from '../assets/atom.png'
 import './styles.css'
 import worker2 from "../assets/worker2.gif"
+import Contact from "./Contact";
 
 const HeroBoard = () => {
   return (
     <div className="flex h-screen items-center text-white z-50" >
       <img src={worker2} style={{position:"absolute",zIndex:"0",opacity:"0.1",width:"700px",right:"300px"}}></img>
+
         <Design />
 
       <div className="basis-1/2 pl-10 z-50">
@@ -24,7 +26,7 @@ const HeroBoard = () => {
           contributions to innovative projects in the frontend development
           domain at Track Four Infotech.
         </h3>
-        <button className="bg-yellow-400 px-5 py-3 rounded-lg mt-5 font-semibold">Hire Me</button>
+        <button className="bg-transparent mt-5 hover:bg-yellow-500 text-yellow-400 font-semibold hover:text-white py-2 px-4 border border-yellow-300 hover:border-transparent rounded">Hire Me</button>
       </div>
 
       <div className="basis-1/2 flex justify-center ">
@@ -38,6 +40,7 @@ const HeroBoard = () => {
         <h1 className="font-extrabold text-[5rem]">Javascript<br/>Developer</h1>
         </div> */}
       </div>
+        <Contact/>
       
       </div>
      
