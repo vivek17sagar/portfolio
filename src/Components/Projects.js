@@ -24,11 +24,11 @@ import netflix_img6 from "../assets/netflix-img6.jpeg";
 
 const Projects = () => {
   return (
-    <div className="h-46 mt-20 flex flex-col gap-10">
-      <h1 className="text-yellow-400 text-center text-[3rem] underline tracking-widest z-50">
-        Portfolio
+    <div className="h-46 mt-20 flex flex-col gap-10" id="projects">
+      <h1 className="Projects_title text-yellow-400 text-center text-[3rem] underline tracking-widest z-50">
+        Projects
       </h1>
-      <div className="flex">
+      <div className="flex justify-between">
         <div className="flex gap-4 p-10">
           <div>
             <div>

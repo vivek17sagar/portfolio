@@ -4,9 +4,9 @@ import Stepper from "../Design/Stepper";
 const Experience = () => {
   return (
     <>
-    <div className="m-2">
+    <div className="m-2" id="experience">
       <div>
-        <h1 className="text-yellow-400 text-center text-[3rem] underline tracking-widest z-50">
+        <h1 className="Experince_title text-yellow-400 text-center text-[3rem] underline tracking-widest z-50">
           Experience
         </h1>
       </div>

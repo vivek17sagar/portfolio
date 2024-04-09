@@ -8,7 +8,7 @@ import Contact from "./Contact";
 
 const HeroBoard = () => {
   return (
-    <div className="flex h-screen items-center text-white z-50" >
+    <div className="flex h-screen items-center text-white z-50" id="home">
       <img src={worker2} style={{position:"absolute",zIndex:"0",opacity:"0.1",width:"700px",right:"300px"}}></img>
 
         <Design />
