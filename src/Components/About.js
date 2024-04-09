@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import bgImage2 from "../assets/bgImage2.png";
+import './styles.css'
 import Chart from "../Design/Chart";
 import programming_icon from "../assets/programmig_icon.png";
 import tech_icon from "../assets/tech_icon.png";
@@ -12,17 +13,17 @@ const About = () => {
   const [activeSkill, setActiveSkill] = useState("technical");
 
   return (
-    <div>
-      <div className="z-50">
-        <h1 className="text-yellow-400 text-center text-[3rem] underline tracking-widest z-50">
+    <div id="about">
+      <div className="">
+        <h1 className="About_title text-yellow-400 text-center text-[3rem] underline tracking-widest z-40">
           ABOUT
         </h1>
-        <div className="text-center flex justify-center z-50 ">
+        <div className="text-center flex justify-center z-40 ">
           {/* <img
             src={bgImage2}
             style={{ position: "absolute", zIndex: "0", opacity: "0.7" }}
           ></img> */}
-          <p className="w-3/4 tracking-[0.2rem] text-white leading-10 text-[1.2rem] z-50">
+          <p className="w-3/4 tracking-[0.2rem] text-white leading-10 text-[1.2rem] z-40">
             {" "}
             With one year of experience as a{" "}
             <span className="text-[#687EFF]">Frontend Developer</span> at Track

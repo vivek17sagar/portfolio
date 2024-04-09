@@ -9,6 +9,7 @@ import {
   SquaresPlusIcon,
   XMarkIcon,
 } from '@heroicons/react/24/outline'
+import {Link} from 'react-scroll';
 import { ChevronDownIcon, PhoneIcon, PlayCircleIcon } from '@heroicons/react/20/solid'
 
 const products = [
@@ -31,8 +32,8 @@ export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
-    <header className="fixed w-full">
-      <nav className="mx-auto flex max-full items-center justify-center p-6 lg:px-6 bg-black" aria-label="Global">
+    <header className="fixed w-full z-50">
+      <nav className="mx-auto flex max-full items-center justify-center p-6 lg:px-6 bg-black" style={{boxShadow:"0px 0px 80px 50px black"}} aria-label="Global">
        
         <div className="flex lg:hidden">
           <button
@@ -44,22 +45,27 @@ export default function Header() {
             <Bars3Icon className="h-6 w-6" aria-hidden="true" />
           </button>
         </div>
-        <div className="hidden lg:flex lg:gap-x-36">
+        <div className="flex w-[100%] justify-around items-center">
+          <div>
+          <h1 className='title_head text-yellow-400'>Portfolio</h1>
+          </div>
+          <div className='hidden lg:flex lg:gap-x-36'>
           <p  className="text-sm font-semibold leading-6 text-white hover:scale-105 cursor-pointer">
-            Home
+           <Link to='home' spy={true} smooth={true} offset={50} duration={500}>Home</Link> 
           </p>
           <p className="text-sm font-semibold leading-6 text-white hover:scale-105 cursor-pointer">
-            About
+          <Link to='about' spy={true} smooth={true} offset={50} duration={500}>About</Link> 
           </p>
           <p className="text-sm font-semibold leading-6 text-white hover:scale-105 cursor-pointer">
-            Portfolio
+          <Link to='projects' spy={true} smooth={true} offset={50} duration={500}>Projects</Link> 
           </p>
           <p className="text-sm font-semibold leading-6 text-white hover:scale-105 cursor-pointer">
-            Experience
+          <Link to='experience' spy={true} smooth={true} offset={50} duration={500}>Experience</Link> 
           </p>
-          <p className="text-sm font-semibold leading-6 text-white hover:scale-105 cursor-pointer">
+          {/* <p className="text-sm font-semibold leading-6 text-white hover:scale-105 cursor-pointer">
             Contact
-          </p>
+          </p> */}
+          </div>
         </div>
       
       </nav>
