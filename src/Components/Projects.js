@@ -37,14 +37,14 @@ const Projects = () => {
           </div>
           <div className="flex flex-col gap-10">
             <div className="flex gap-2">
-              <img src={layer_img1} alt="layer-full-img" className="w-60 hover:scale-125 cursor-pointer duration-200" />
-              <img src={layer_img2} alt="layer-full-img" className="w-60 hover:scale-125 cursor-pointer duration-200" />
-              <img src={layer_img3} alt="layer-full-img" className="w-60 hover:scale-125 cursor-pointer duration-200" />
+              <img src={layer_img1} alt="layer-full-img" className="w-60 min-w-40 hover:scale-125 cursor-pointer duration-200" />
+              <img src={layer_img2} alt="layer-full-img" className="w-60 min-w-40 hover:scale-125 cursor-pointer duration-200" />
+              <img src={layer_img3} alt="layer-full-img" className="w-60 min-w-40 hover:scale-125 cursor-pointer duration-200" />
             </div>
             <div className="flex gap-2">
-              <img src={layer_img4} alt="layer-full-img" className="w-60 hover:scale-125 cursor-pointer duration-200" />
-              <img src={layer_img5} alt="layer-full-img" className="w-60 hover:scale-125 cursor-pointer duration-200" />
-              <img src={layer_img3} alt="layer-full-img" className="w-60 hover:scale-125 cursor-pointer duration-200" />
+              <img src={layer_img4} alt="layer-full-img" className="w-60 min-w-40 hover:scale-125 cursor-pointer duration-200" />
+              <img src={layer_img5} alt="layer-full-img" className="w-60 min-w-40 hover:scale-125 cursor-pointer duration-200" />
+              <img src={layer_img3} alt="layer-full-img" className="w-60 min-w-40 hover:scale-125 cursor-pointer duration-200" />
             </div>
           </div>
         </div>
@@ -91,7 +91,7 @@ const Projects = () => {
       </div>
 
       {/* ---------------------------------------------------------------- */}
-      <div className="flex">
+      <div className="flex items-center justify-center">
         <div className="p-10 text-white">
         <div>
             <h1 className="text-white text-[2rem] pb-2">Spotify</h1>
@@ -138,21 +138,21 @@ const Projects = () => {
           </div>
           <div className="flex flex-col gap-10">
             <div className="flex gap-2">
-              <img src={spotify_img1} alt="layer-full-img" className="w-60 hover:scale-125 cursor-pointer duration-200" />
-              <img src={spotify_img2} alt="layer-full-img" className="w-60 hover:scale-125 cursor-pointer duration-200" />
-              <img src={spotify_img3} alt="layer-full-img" className="w-60 hover:scale-125 cursor-pointer duration-200" />
+              <img src={spotify_img1} alt="layer-full-img" className="w-60 min-w-40 hover:scale-125 cursor-pointer duration-200" />
+              <img src={spotify_img2} alt="layer-full-img" className="w-60 min-w-40 hover:scale-125 cursor-pointer duration-200" />
+              <img src={spotify_img3} alt="layer-full-img" className="w-60 min-w-40 hover:scale-125 cursor-pointer duration-200" />
             </div>
             <div className="flex gap-2">
-              <img src={spotify_img4} alt="layer-full-img" className="w-60 hover:scale-125 cursor-pointer duration-200" />
-              <img src={spotify_img5} alt="layer-full-img" className="w-60 hover:scale-125 cursor-pointer duration-200" />
-              <img src={spotify_img6} alt="layer-full-img" className="w-60 hover:scale-125 cursor-pointer duration-200" />
+              <img src={spotify_img4} alt="layer-full-img" className="w-60 min-w-40 hover:scale-125 cursor-pointer duration-200" />
+              <img src={spotify_img5} alt="layer-full-img" className="w-60 min-w-40 hover:scale-125 cursor-pointer duration-200" />
+              <img src={spotify_img6} alt="layer-full-img" className="w-60 min-w-40 hover:scale-125 cursor-pointer duration-200" />
             </div>
           </div>
         </div>
       </div>
       
       {/* ---------------------------------------------------------------- */}
-      <div className="flex">
+      <div className="flex items-center justify-center">
         <div className="flex gap-4 p-10">
           <div>
             <div>
@@ -161,16 +161,16 @@ const Projects = () => {
           </div>
           <div className="flex flex-col gap-10">
             <div className="flex gap-2">
-              <img src={netflix_img1} alt="layer-full-img" className="w-60 hover:scale-125 cursor-pointer duration-200" />
-              <img src={netflix_img3} alt="layer-full-img" className="w-60 hover:scale-125 cursor-pointer duration-200" />
-              <img src={netflix_img4} alt="layer-full-img" className="w-60 hover:scale-125 cursor-pointer duration-200" />
+              <img src={netflix_img1} alt="layer-full-img" className="w-60 min-w-40 hover:scale-125 cursor-pointer duration-200" />
+              <img src={netflix_img3} alt="layer-full-img" className="w-60 min-w-40 hover:scale-125 cursor-pointer duration-200" />
+              <img src={netflix_img4} alt="layer-full-img" className="w-60 min-w-40 hover:scale-125 cursor-pointer duration-200" />
             </div>
             <div className="flex gap-2">
-              <img src={netflix_img2} alt="layer-full-img" className="w-60 hover:scale-125 cursor-pointer duration-200" />
-              <img src={netflix_img5} alt="layer-full-img" className="w-60 hover:scale-125 cursor-pointer duration-200" />
-              <img src={netflix_img6} alt="layer-full-img" className="w-60 hover:scale-125 cursor-pointer duration-200" />
+              <img src={netflix_img2} alt="layer-full-img" className="w-60 min-w-40 hover:scale-125 cursor-pointer duration-200" />
+              <img src={netflix_img5} alt="layer-full-img" className="w-60 min-w-40 hover:scale-125 cursor-pointer duration-200" />
+              <img src={netflix_img6} alt="layer-full-img" className="w-60 min-w-40 hover:scale-125 cursor-pointer duration-200" />
             </div>
-          </div>
+          </div> min-w-40
         </div>
         <div className="p-10 text-white">
           <div>

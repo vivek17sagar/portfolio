@@ -2,6 +2,7 @@ import React from "react";
 import About from "./About";
 import Design from "../Design/Design";
 import atom from '../assets/atom.png'
+import image from '../assets/image.svg'
 import './styles.css'
 import worker2 from "../assets/worker2.gif"
 import Contact from "./Contact";
@@ -9,12 +10,12 @@ import Contact from "./Contact";
 const HeroBoard = () => {
   return (
     <div className="flex h-screen items-center text-white z-50" id="home">
-      <img src={worker2} style={{position:"absolute",zIndex:"0",opacity:"0.1",width:"700px",right:"300px"}}></img>
+      <img src={image} style={{position:"absolute",zIndex:"0",opacity:"0.2",right:"250px"}}></img>
 
         <Design />
 
-      <div className="basis-1/2 pl-10 z-50">
-        <h1 className="font-bold text-7xl  mb-5 text-yellow-500">Hii!! Vivek Sagar</h1>
+      <div className="basis-1/2 pl-20 z-50">
+        <h1 className="font-bold text-7xl mb-5 text-yellow-500">Hii!! Vivek Sagar</h1>
         <h3 className="tracking-widest">
           With one year of experience as a <span className="text-[#687EFF]">Frontend Developer</span> at Track Four
           Infotech Pvt Ltd, I've specialized in crafting dynamic web interfaces

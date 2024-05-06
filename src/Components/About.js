@@ -37,9 +37,9 @@ const About = () => {
             development domain at Track Four Infotech.
           </p>
         </div>
-        <div className=" p-16 flex justify-between">
+        <div className="p-16 flex justify-around gap-10">
           <div
-            className="border-solid w-1/4 bg-yellow-400/50 p-[5rem] flex flex-col gap-5 flex"
+            className="border-solid min-w-[400px] w-[600px] bg-yellow-400/50 p-[5rem] flex flex-col gap-5 flex"
             style={{
               background: " rgba(0, 0, 0,0.2)",
               borderRadius: "16px",
@@ -112,7 +112,7 @@ const About = () => {
             </div>
           </div>
           <div
-            className="border-solid w-2/4 bg-yellow-400/50 p-[5rem] flex flex-col gap-5 flex min-h-[700px]"
+            className="border-solid min-w-[600px] bg-yellow-400/50 p-[5rem] flex flex-col gap-5 flex min-h-[700px]"
             style={{
               background: " rgba(0, 0, 0,0.2)",
               borderRadius: "16px",

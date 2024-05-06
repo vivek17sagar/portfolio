@@ -10,10 +10,10 @@ const Experience = () => {
           Experience
         </h1>
       </div>
-      <div className="flex mt-24">
+      <div className="flex mt-24 w-[92rem]">
         <div className="w-96 h-46 rotate-90"><Stepper/></div>
-        <div className="flex flex-col h-96 gap-10">
-        <div className=" text-white p-3">
+        <div className="flex flex-col h-96 pl-12 p-8 gap-10">
+        <div className=" text-white">
             <h2>Newton School - (Intern)</h2>
             <div>
                 <li>
@@ -31,7 +31,7 @@ const Experience = () => {
               
             </div>
         </div>
-        <div className=" text-white p-3">
+        <div className=" text-white ">
             <h2>Track Four Infotech - eOxegen (Software Developer)</h2>
             <div>
                 <li>
